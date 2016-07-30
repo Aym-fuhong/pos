@@ -9,10 +9,10 @@ function loadAllItems() {
       price: 3.00
     },
     {
-      barcode: ' ',
-      name: '雪碧',
-      unit: '瓶',
-      price: 3.00
+      barcode: 'ITEM000001',
+      name: '羽毛球',
+      unit: '个',
+      price: 1.00
     },
     {
       barcode: 'ITEM000002',
@@ -44,7 +44,7 @@ function loadAllItems() {
 function loadPromotions() {
   return [
     {
-      type: 'BUY_TWO_GET_ONE_FREE',
+      type: '单品批发价出售',
       barcodes: [
         'ITEM000000',
         'ITEM000001',
